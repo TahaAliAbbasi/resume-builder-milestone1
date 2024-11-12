@@ -11,38 +11,38 @@
       <h1>Enter Your Resume Details</h1>
       <form id="resumeForm">
         <label for="name">Name :</label>
-        <input type="text" id="name" required />
+        <input type="text" placeholder="Type your name here" id="name" required />
 
         <label for="title">Job title :</label>
-        <input type="text" id="title" required />
+        <input type="text" placeholder="e.g. Frontend web developper" id="title" required />
 
-        <label for="image">Upload Your Photo</label>
-        <input type="file" id="image" accept="image/*" required />
+        <label for="image">Upload Your Photo :</label>
+        <input type="file" id="image"  accept="image/*" required />
 
         <label for="email">Email :</label>
-        <input type="email" id="email" required />
+        <input type="email" placeholder="ABC@XYZ.com" id="email" required />
 
         <label for="phone">Phone number :</label>
-        <input type="tel" id="phone" required />
+        <input type="tel" placeholder="03xxxxxxxxx" id="phone" required />
 
-        <label for="location">Location :</label>
+        <label for="location">Location (comma-separated) :</label>
         <input type="text" id="location" placeholder="City, Country" required />
 
-        <label for="education">Education :</label>
+        <label for="education">Education (comma-separated) :</label>
         <textarea
           id="education"
           placeholder="List your education"
           required
         ></textarea>
 
-        <label for="experience">Work Experience & Projects :</label>
+        <label for="experience">Work Experience & Projects (comma-separated) :</label>
         <textarea
           id="experience"
           placeholder="Describe your work experience and key projects"
           required
         ></textarea>
 
-        <label for="skills">Skills :</label>
+        <label for="skills">Skills (comma-separated) :</label>
         <input
           type="text"
           id="skills"
